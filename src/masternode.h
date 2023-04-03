@@ -279,6 +279,7 @@ public:
     }
 
     int64_t GetLastPaid();
+    int64_t GetLastPaidBlock();
     bool IsValidNetAddr();
 };
 
